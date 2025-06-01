@@ -2,9 +2,9 @@
 
 namespace NiclasTimm\Feedbeggar;
 
+use NiclasTimm\Feedbeggar\Commands\FeedbeggarCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use NiclasTimm\Feedbeggar\Commands\FeedbeggarCommand;
 
 class FeedbeggarServiceProvider extends PackageServiceProvider
 {

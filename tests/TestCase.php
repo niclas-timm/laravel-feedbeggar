@@ -3,8 +3,8 @@
 namespace NiclasTimm\Feedbeggar\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use NiclasTimm\Feedbeggar\FeedbeggarServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
