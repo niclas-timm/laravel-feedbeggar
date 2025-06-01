@@ -1,47 +1,42 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "58849920-niclas-timm/laravel-feedbeggar",
+    "description": "This is my package laravel-feedbeggar",
     "keywords": [
-        ":vendor_name",
+        "niclas-timm",
         "laravel",
-        ":package_slug"
+        "laravel-feedbeggar"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/58849920-niclas-timm/laravel-feedbeggar",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Niclas Timm",
+            "email": "niclastimmdev@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.4",
+        "php": "^8.3",
         "spatie/laravel-package-tools": "^1.16",
         "illuminate/contracts": "^10.0||^11.0||^12.0"
     },
     "require-dev": {
         "laravel/pint": "^1.14",
         "nunomaduro/collision": "^8.1.1||^7.10.0",
-        "larastan/larastan": "^2.9||^3.0",
         "orchestra/testbench": "^10.0.0||^9.0.0||^8.22.0",
         "pestphp/pest": "^3.0",
         "pestphp/pest-plugin-arch": "^3.0",
-        "pestphp/pest-plugin-laravel": "^3.0",
-        "phpstan/extension-installer": "^1.3||^2.0",
-        "phpstan/phpstan-deprecation-rules": "^1.1||^2.0",
-        "phpstan/phpstan-phpunit": "^1.3||^2.0",
-        "spatie/laravel-ray": "^1.35"
+        "pestphp/pest-plugin-laravel": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "NiclasTimm\\Feedbeggar\\": "src/",
+            "NiclasTimm\\Feedbeggar\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "NiclasTimm\\Feedbeggar\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +58,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "NiclasTimm\\Feedbeggar\\FeedbeggarServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Feedbeggar": "NiclasTimm\\Feedbeggar\\Facades\\Feedbeggar"
             }
         }
     },
